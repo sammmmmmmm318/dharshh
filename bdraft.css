@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(bpap.png);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+h1 {
+    color: #2e6c40; /* Bright green for title */
+    font-size: 95px;
+    margin-bottom: 40px;
+}
+p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+.card-grid {
+    display: grid;
+    gap: 100px;
+    margin-bottom: 80px;
+    
+}
+.card {
+    display: block; /* Makes the whole card clickable */
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Remove underline from links */
+    color: inherit;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 50px;
+    min-height: 100px;
+}
+.card:hover {
+    transform: translateY(-5px); /* Cute lift effect */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.card-content h2 {
+    color: #2e6c40; /* Darker pink for card titles */
+    margin-top: 0;
+}
+.card-content p {
+    font-size: 1em;
+    color: #666;
+}
